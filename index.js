@@ -1,11 +1,11 @@
-var recipes = {"pizza": "cheese", "burger": "beef"}
+var recipes = {prop : 1}
 
 function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({}, recipes, {"sandwich": "salami"})
+  return Object.assign({}, recipes, {prop2: 2})
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  recipes.cereal = "milk"
+  recipes.prop2 = "2"
   return recipes
 }
 
