@@ -14,3 +14,5 @@ function deleteFromObjectByKey(object, key){
   delete newRecipe.pasta
   return newRecipe
 }
+
+function destructivelyDeleteFromObjectByKey(object, key)
